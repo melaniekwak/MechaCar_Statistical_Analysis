@@ -4,12 +4,15 @@
 ![linear](mecha_car.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 The p-value was higher for vehicle weight, spoiler angle, and AWD, so we can conclude that these variables had a higher random variability. Because of this, they have less chance of affecting our mpg. On the flip side, our vehicle length and ground clearance have a very small p-value and we can expect a more significant affect on our mpg.
 
 Is the slope of the linear model considered to be zero? Why or why not?
+
 The slope is not considered zero, the p-value is 5.35e-11, which is less than 0.05.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 Our R-squared value is .7149 which indicates that the linear model will predict mpg of mechacar accurately 71% of the time. There could be other factors not included in the dataset that contribute to the mpg of mechacar.
 
 ## Summary Statistics on Suspension Coils
